@@ -1,0 +1,4 @@
+.env
+screenshotclient/node_modules
+node_modules
+notes.txt

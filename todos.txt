@@ -1,0 +1,13 @@
+To Do:
+
+1) Ask Ed for S3 bucket access to store screenshots
+2) make puppeteer call from my server to mitigate headless chrome browsing issues
+3) make CV version of screenshots in accordance with this doc: https://docs.google.com/document/d/1XHyTEBf45IBf0ZCQYcNHuNSYwkudoict-80X2pnKutE/edit?ts=5df25adc
+4)put in to folders by module
+5) confirm that every canonical code (item) per slug has been screenshots
+6)make sure front end and back end screenshot are the same size.. zoom in on back end screenshot after it has been taken.
+7) append both screenshots together
+8) get each set of screenshots on to one google slide
+9) show answers for integer/short text question types (all question types that are hidden)
+10) make sure audio is shown for all relevant questions
+11) if image ROs, zoom in on each image then screenshot
