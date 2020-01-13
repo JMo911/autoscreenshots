@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
 const takeScreenshot = async(assessment_slug, itemnumber, item_canonical_code, internal_name) => {
     let browser = await puppeteer.launch();
     const options1 = {
-        path: `images/${internal_name}_${item_canonical_code}_FRONTEND.png`,
+        path: `images/PREVIEW${internal_name}_${item_canonical_code}_FRONTEND.png`,
         fullPage: true,
         omitBackground: true
     }
@@ -49,7 +49,7 @@ const takeScreenshot = async(assessment_slug, itemnumber, item_canonical_code, i
 
     //works for ele screenshot
     const options2 = {
-        path: `images/${internal_name}_${item_canonical_code}_BACKEND.png`,
+        path: `images/PREVIEW${internal_name}_${item_canonical_code}_BACKEND.png`,
         fullPage: true
         // omitBackground: true
     }
